@@ -1,5 +1,6 @@
 import pandas as pd
 from prophet import Prophet
+import matplotlib.pyplot as plt
 
 df = pd.read_csv('https://raw.githubusercontent.com/facebook/prophet/main/examples/example_wp_log_peyton_manning.csv')
 df.head()
@@ -13,4 +14,6 @@ future.tail()
 forecast = m.predict(future)
 forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail()
 
+
 fig1 = m.plot(forecast)
+plt.show()
