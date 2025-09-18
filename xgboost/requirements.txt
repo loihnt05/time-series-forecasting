@@ -1,1 +1,1 @@
-uv pip install numpy pandas seaborn matplotlib scikit-learn xgboostnumpy
+uv pip install numpy seaborn matplotlib scikit-learn xgboost
