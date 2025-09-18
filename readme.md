@@ -2,7 +2,7 @@
 
 ## Statistical models
 
-- Prophet
+- Prophet [here](https://facebook.github.io/prophet/docs/quick_start.html) and [here](https://www.kaggle.com/code/robikscube/time-series-forecasting-with-prophet?scriptVersionId=26595661)
 - ARIMA / SARIMA
 - Exponential Smoothing (ETS, Holt-Winters)
 

@@ -2,3 +2,4 @@ plotly
 matplotlib
 pandas
 prophet
+pip install numpy pandas seaborn matplotlib scikit-learn prophet
